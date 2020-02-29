@@ -12,7 +12,7 @@ module top;
    
   initial begin
     reset = 1;
-    #5 reset =0;
+    #5 reset = 0;
   end
   
   adder_inf intf(clk,reset);

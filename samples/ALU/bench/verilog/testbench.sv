@@ -12,7 +12,7 @@ module alutop;
    
   initial begin
     reset = 1;
-    #5 reset =0;
+    #5 reset = 0;
   end
   
   aluinf intf(clk,reset);
