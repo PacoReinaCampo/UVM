@@ -1,0 +1,7 @@
+rm -rf sim/verilog/uvm/adder/transcript
+rm -rf sim/verilog/uvm/ALU/transcript
+rm -rf sim/verilog/uvm/hello/transcript
+
+rm -rf sim/verilog/uvm/adder/work
+rm -rf sim/verilog/uvm/ALU/work
+rm -rf sim/verilog/uvm/hello/work
