@@ -1,13 +1,3 @@
-../../../../samples/ALU/bench/verilog/agent.sv
-../../../../samples/ALU/bench/verilog/driver.sv
-../../../../samples/ALU/bench/verilog/environment.sv
-../../../../samples/ALU/bench/verilog/interface.sv
-../../../../samples/ALU/bench/verilog/monitor.sv
-../../../../samples/ALU/bench/verilog/scoreboard.sv
-../../../../samples/ALU/bench/verilog/sequence.sv
-../../../../samples/ALU/bench/verilog/sequenceitems.sv
-../../../../samples/ALU/bench/verilog/sequencer.sv
-../../../../samples/ALU/bench/verilog/test.sv
 ../../../../samples/ALU/bench/verilog/testbench.sv
 
 ../../../../samples/ALU/rtl/verilog/design.sv

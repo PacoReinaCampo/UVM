@@ -1,13 +1,3 @@
-../../../../samples/adder/bench/verilog/agent.sv
-../../../../samples/adder/bench/verilog/driver.sv
-../../../../samples/adder/bench/verilog/environment.sv
-../../../../samples/adder/bench/verilog/interface.sv
-../../../../samples/adder/bench/verilog/monitor.sv
-../../../../samples/adder/bench/verilog/scoreboard.sv
-../../../../samples/adder/bench/verilog/sequence.sv
-../../../../samples/adder/bench/verilog/sequenceitems.sv
-../../../../samples/adder/bench/verilog/sequencer.sv
-../../../../samples/adder/bench/verilog/test.sv
 ../../../../samples/adder/bench/verilog/testbench.sv
 
 ../../../../samples/adder/rtl/verilog/design.sv
