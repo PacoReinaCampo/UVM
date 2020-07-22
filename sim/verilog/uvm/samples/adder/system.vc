@@ -1,0 +1,3 @@
+../../../../../samples/adder/bench/verilog/testbench.sv
+
+../../../../../samples/adder/rtl/verilog/design.sv

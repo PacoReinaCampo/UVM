@@ -1,7 +1,18 @@
-rm -rf sim/verilog/uvm/adder/transcript
-rm -rf sim/verilog/uvm/ALU/transcript
-rm -rf sim/verilog/uvm/hello/transcript
+rm -rf sim/verilog/uvm/samples/adder/transcript
+rm -rf sim/verilog/uvm/samples/ALU/transcript
+rm -rf sim/verilog/uvm/samples/hello/transcript
 
-rm -rf sim/verilog/uvm/adder/work
-rm -rf sim/verilog/uvm/ALU/work
-rm -rf sim/verilog/uvm/hello/work
+rm -rf sim/verilog/uvm/buses/ahb3/transcript
+rm -rf sim/verilog/uvm/buses/apb4/transcript
+rm -rf sim/verilog/uvm/buses/axi4/transcript
+rm -rf sim/verilog/uvm/buses/wb/transcript
+
+
+rm -rf sim/verilog/uvm/samples/adder/work
+rm -rf sim/verilog/uvm/samples/ALU/work
+rm -rf sim/verilog/uvm/samples/hello/work
+
+rm -rf sim/verilog/uvm/buses/ahb3/work
+rm -rf sim/verilog/uvm/buses/apb4/work
+rm -rf sim/verilog/uvm/buses/axi4/work
+rm -rf sim/verilog/uvm/buses/wb/work
