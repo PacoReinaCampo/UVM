@@ -46,6 +46,16 @@
 
 import uvm_pkg::*;
 
+`include "apb4_transaction.svh"
+`include "apb4_sequence.svh"
+`include "apb4_monitor.svh"
+`include "apb4_driver.svh"
+`include "apb4_agent.svh"
+`include "apb4_bus_monitor.svh"  
+`include "apb4_scoreboard.svh"
+`include "apb4_env.svh"
+`include "apb4_test.svh"
+
 module testbench;
 
   dutintf intf();

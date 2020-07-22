@@ -43,6 +43,9 @@
 
 import uvm_pkg::*;
 
+`include "interface.sv"
+`include "test.sv"
+
 module testbench;
  
   bit clk;

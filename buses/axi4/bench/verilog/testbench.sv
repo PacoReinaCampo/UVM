@@ -46,6 +46,16 @@
 
 import uvm_pkg::*;
 
+`include "axi4_transaction.svh"
+`include "axi4_sequence.svh"
+`include "axi4_monitor.svh"
+`include "axi4_driver.svh"
+`include "axi4_agent.svh"
+`include "axi4_bus_monitor.svh"  
+`include "axi4_scoreboard.svh"
+`include "axi4_env.svh"
+`include "axi4_test.svh"
+
 module testbench;
 
   dutintf intf();

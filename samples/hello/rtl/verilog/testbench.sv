@@ -57,7 +57,7 @@ endclass
 
 module testbench;
   initial begin
-    $display ("Module tb: running test");
+    $display ("testbench: running test");
     run_test("my_test");
   end
 endmodule

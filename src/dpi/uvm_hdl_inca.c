@@ -1,8 +1,7 @@
 //----------------------------------------------------------------------
-// Copyright 2009-2011 Mentor Graphics Corporation
-// Copyright 2010-2011 Synopsys, Inc.
-// Copyright 2007-2018 Cadence Design Systems, Inc.
-// Copyright 2013 NVIDIA Corporation
+//   Copyright 2007-2013 Cadence Design Systems, Inc.
+//   Copyright 2009-2010 Mentor Graphics Corporation
+//   Copyright 2010-2011 Synopsys, Inc.
 //   All Rights Reserved Worldwide
 //
 //   Licensed under the Apache License, Version 2.0 (the
@@ -177,6 +176,7 @@ static int uvm_hdl_get_vlog_partsel(char *path, p_vpi_vecval value, PLI_INT32 fl
     bit_value.aval = 0;
     bit_value.bval = 0;
     for (i=0; i < width; i++) {
+      svLogic logic_bit;
       sprintf(index_str,"%u]",rhs);
       strncpy(path_ptr,index_str,path_len);
 
@@ -184,7 +184,7 @@ static int uvm_hdl_get_vlog_partsel(char *path, p_vpi_vecval value, PLI_INT32 fl
     	  if(uvm_hdl_get_vlog(path,&bit_value,flag)==0) { return 0; }
       }
 
-      svGetBitselLogic(&bit_value,0);
+      logic_bit = svGetBitselLogic(&bit_value,0);
       svPutPartselLogic(value,bit_value,i,1);
       rhs += incr;
     }

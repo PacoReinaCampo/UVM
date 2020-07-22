@@ -46,6 +46,16 @@
 
 import uvm_pkg::*;
 
+`include "ahb3_transaction.svh"
+`include "ahb3_sequence.svh"
+`include "ahb3_monitor.svh"
+`include "ahb3_driver.svh"
+`include "ahb3_agent.svh"
+`include "ahb3_bus_monitor.svh"  
+`include "ahb3_scoreboard.svh"
+`include "ahb3_env.svh"
+`include "ahb3_test.svh"
+
 module testbench;
 
   dutintf intf();

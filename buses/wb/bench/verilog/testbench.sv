@@ -46,6 +46,16 @@
 
 import uvm_pkg::*;
 
+`include "wb_transaction.svh"
+`include "wb_sequence.svh"
+`include "wb_monitor.svh"
+`include "wb_driver.svh"
+`include "wb_agent.svh"
+`include "wb_bus_monitor.svh"  
+`include "wb_scoreboard.svh"
+`include "wb_env.svh"
+`include "wb_test.svh"
+
 module testbench;
 
   dutintf intf();
