@@ -1,0 +1,27 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2020.2/bin/unwrapped/lnx64.o/xelab test 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2991] 'psel' is not declared under prefix 'master_cb' [/home/us1/github/UVM/bus/axi4/bench/verilog/axi4_driver.svh:63]
+ERROR: [VRFC 10-2991] 'penable' is not declared under prefix 'master_cb' [/home/us1/github/UVM/bus/axi4/bench/verilog/axi4_driver.svh:64]
+ERROR: [VRFC 10-2991] 'paddr' is not declared under prefix 'master_cb' [/home/us1/github/UVM/bus/axi4/bench/verilog/axi4_driver.svh:84]
+ERROR: [VRFC 10-2991] 'pwrite' is not declared under prefix 'master_cb' [/home/us1/github/UVM/bus/axi4/bench/verilog/axi4_driver.svh:85]
+ERROR: [VRFC 10-2991] 'psel' is not declared under prefix 'master_cb' [/home/us1/github/UVM/bus/axi4/bench/verilog/axi4_driver.svh:86]
+ERROR: [VRFC 10-2991] 'penable' is not declared under prefix 'master_cb' [/home/us1/github/UVM/bus/axi4/bench/verilog/axi4_driver.svh:88]
+ERROR: [VRFC 10-2991] 'prdata' is not declared under prefix 'master_cb' [/home/us1/github/UVM/bus/axi4/bench/verilog/axi4_driver.svh:90]
+ERROR: [VRFC 10-2991] 'psel' is not declared under prefix 'master_cb' [/home/us1/github/UVM/bus/axi4/bench/verilog/axi4_driver.svh:91]
+ERROR: [VRFC 10-2991] 'penable' is not declared under prefix 'master_cb' [/home/us1/github/UVM/bus/axi4/bench/verilog/axi4_driver.svh:92]
+ERROR: [VRFC 10-2991] 'paddr' is not declared under prefix 'master_cb' [/home/us1/github/UVM/bus/axi4/bench/verilog/axi4_driver.svh:96]
+ERROR: [VRFC 10-2991] 'pwdata' is not declared under prefix 'master_cb' [/home/us1/github/UVM/bus/axi4/bench/verilog/axi4_driver.svh:97]
+ERROR: [VRFC 10-2991] 'pwrite' is not declared under prefix 'master_cb' [/home/us1/github/UVM/bus/axi4/bench/verilog/axi4_driver.svh:98]
+ERROR: [VRFC 10-2991] 'psel' is not declared under prefix 'master_cb' [/home/us1/github/UVM/bus/axi4/bench/verilog/axi4_driver.svh:99]
+ERROR: [VRFC 10-2991] 'penable' is not declared under prefix 'master_cb' [/home/us1/github/UVM/bus/axi4/bench/verilog/axi4_driver.svh:101]
+ERROR: [VRFC 10-2991] 'psel' is not declared under prefix 'master_cb' [/home/us1/github/UVM/bus/axi4/bench/verilog/axi4_driver.svh:103]
+ERROR: [VRFC 10-2991] 'penable' is not declared under prefix 'master_cb' [/home/us1/github/UVM/bus/axi4/bench/verilog/axi4_driver.svh:104]
+ERROR: [VRFC 10-2991] 'psel' is not declared under prefix 'monitor_cb' [/home/us1/github/UVM/bus/axi4/bench/verilog/axi4_monitor.svh:74]
+ERROR: [VRFC 10-2991] 'pwrite' is not declared under prefix 'monitor_cb' [/home/us1/github/UVM/bus/axi4/bench/verilog/axi4_monitor.svh:79]
+ERROR: [VRFC 10-2991] 'paddr' is not declared under prefix 'monitor_cb' [/home/us1/github/UVM/bus/axi4/bench/verilog/axi4_monitor.svh:80]
+INFO: [#UNDEF] Sorry, too many errors..
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/us1/github/UVM/bus/apb4/bench/verilog/testbench.sv" into library work
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/us1/github/UVM/bus/apb4/rtl/verilog/design.sv" into library work
+INFO: [VRFC 10-311] analyzing module apb4_slave

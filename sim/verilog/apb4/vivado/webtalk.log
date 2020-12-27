@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Dec 27 03:52:26 2020
+# Process ID: 15571
+# Current directory: /home/us1/github/UVM/sim/verilog/apb4/vivado
+# Command line: wbtcv -mode batch -source /home/us1/github/UVM/sim/verilog/apb4/vivado/xsim.dir/work.test/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/us1/github/UVM/sim/verilog/apb4/vivado/webtalk.log
+# Journal file: /home/us1/github/UVM/sim/verilog/apb4/vivado/webtalk.jou
+#-----------------------------------------------------------
+source /home/us1/github/UVM/sim/verilog/apb4/vivado/xsim.dir/work.test/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] '/home/us1/github/UVM/sim/verilog/apb4/vivado/xsim.dir/work.test/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sun Dec 27 03:52:31 2020. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/Vivado/2020.2/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 424.180 ; gain = 0.000 ; free physical = 8259 ; free virtual = 13655
+INFO: [Common 17-206] Exiting Webtalk at Sun Dec 27 03:52:31 2020...

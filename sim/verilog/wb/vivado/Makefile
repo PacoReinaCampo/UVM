@@ -51,4 +51,4 @@ simulate:
 	xelab test
 
 clean:
-	rm -rf *.dir *.jou *.log *.pb
+	rm -rf .Xil *.dir *.jou *.log *.pb
