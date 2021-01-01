@@ -49,6 +49,7 @@ build:
 
 simulate:
 	xelab test
+	xsim -R test
 
 clean:
 	rm -rf .Xil *.dir *.jou *.log *.pb
