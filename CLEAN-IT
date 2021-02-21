@@ -1,9 +1,0 @@
-rm -rf sim/verilog/ahb3/msim/transcript
-rm -rf sim/verilog/apb4/msim/transcript
-rm -rf sim/verilog/axi4/msim/transcript
-rm -rf sim/verilog/wb/msim/transcript
-
-rm -rf sim/verilog/ahb3/msim/work
-rm -rf sim/verilog/apb4/msim/work
-rm -rf sim/verilog/axi4/msim/work
-rm -rf sim/verilog/wb/msim/work
