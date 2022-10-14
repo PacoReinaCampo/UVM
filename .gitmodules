@@ -1,6 +1,0 @@
-[submodule "verilog2vhdl"]
-	path = verilog2vhdl
-	url = https://github.com/PacoReinaCampo/verilog2vhdl.git
-[submodule "vhdl2verilog"]
-	path = vhdl2verilog
-	url = https://github.com/PacoReinaCampo/vhdl2verilog.git
