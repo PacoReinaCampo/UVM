@@ -1,6 +1,6 @@
 ---
 title: 'Universal Verification Methodology'
-subtitle: 'QueenField ![](../../uvm.svg){width=17cm}'
+subtitle: 'QueenField ![](../../icon.jpg)'
 
 author: Paco Reina Campo
 
