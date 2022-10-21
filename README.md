@@ -1,7 +1,7 @@
 # Universal Verification Methodology
 ## QueenField
 
-![QueenField](../master/uvm.svg)
+![QueenField](../main/uvm.svg)
 
 **Universal Verification Methodology**
 
