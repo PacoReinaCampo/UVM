@@ -1,3 +1,0 @@
-sv work ../../../../bus/bb/bench/verilog/testbench.sv
-
-sv work ../../../../bus/bb/rtl/verilog/design.sv
