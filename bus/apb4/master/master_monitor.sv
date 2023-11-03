@@ -23,7 +23,7 @@ class master_monitor extends uvm_monitor;
   extern task collect_data();
   extern task collect_resp();
   extern task collect();
-  //extern function void report_phase(uvm_phase phase);
+  // extern function void report_phase(uvm_phase phase);
 endclass
 
 function master_monitor::new(string name = "master_monitor", uvm_component parent);
@@ -128,7 +128,7 @@ task master_monitor::collect();
 
   master_sequence_item data_rcv2;
 
-  //data_rcv2= master_sequence_item::type_id::create("data_rcv2");
+  // data_rcv2= master_sequence_item::type_id::create("data_rcv2");
 
   fork
     begin

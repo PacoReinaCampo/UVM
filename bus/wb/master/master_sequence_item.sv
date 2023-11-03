@@ -1,7 +1,7 @@
 class master_sequence_item extends uvm_sequence_item;
   `uvm_object_utils(master_sequence_item)
 
-  //ADDRESS
+  // ADDRESS
   static int WRITE_DATA_TRANS;
   static int NO_OF_TRANS = 5;
 
@@ -14,7 +14,7 @@ class master_sequence_item extends uvm_sequence_item;
   bit AWVALID;
   bit AWREADY;
 
-  //DATA
+  // DATA
   randc bit [3:0] WID;
   randc bit [31:0] WDATA[];
 
@@ -23,19 +23,19 @@ class master_sequence_item extends uvm_sequence_item;
   bit WVALID;
   bit WREADY;
 
-  //RESP
+  // RESP
   randc bit BREADY;
 
   bit BVALID;
 
-  //READ ADDRESS
+  // READ ADDRESS
   randc bit [3:0] ARID;
   randc bit [31:0] ARADDR;
   randc bit [3:0] ARLEN;
   randc bit [2:0] ARSIZE;
   randc bit [1:0] ARBURST;
 
-  //DELAYS
+  // DELAYS
   randc bit [2:0] b_delay;
   randc bit [2:0] a_delay;
   randc bit [2:0] d_delay[];
@@ -47,7 +47,7 @@ class master_sequence_item extends uvm_sequence_item;
   bit [2:0] Number_Bytes;
   bit [31:0] Aligned_Address;
 
-  //bit [7:0] Wrap_Boundary;
+  // bit [7:0] Wrap_Boundary;
 
   randc bit [4:0] Burst_Length;
 
@@ -80,7 +80,7 @@ class master_sequence_item extends uvm_sequence_item;
   constraint a10 {AWLEN > 3;}
 
   constraint a11 {foreach (d_delay[i]) d_delay[i] >= 2;}
-  //constraint a12{rd_d_delay!=0;}
+  // constraint a12{rd_d_delay!=0;}
 
   function void post_randomize;
     Number_Bytes = 2 ** AWSIZE;

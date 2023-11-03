@@ -24,7 +24,7 @@ class slave_monitor extends uvm_monitor;
   extern task collect_resp();
   extern task collect();
 
-  //extern function void report_phase(uvm_phase phase);
+  // extern function void report_phase(uvm_phase phase);
 endclass
 
 function void slave_monitor::connect_phase(uvm_phase phase);
@@ -112,7 +112,7 @@ task slave_monitor::collect_data();
             data_rcv.WID = vif.s_mon_cb.WID;
             data_rcv.WSTRB.push_back(vif.s_mon_cb.WSTRB);
             data_rcv.WDATA.push_back(vif.s_mon_cb.WDATA);
-            //repeat(2)
+            // repeat(2)
             @(vif.s_mon_cb);
           end
       end

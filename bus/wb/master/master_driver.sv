@@ -37,7 +37,7 @@ class master_driver extends uvm_driver #(master_sequence_item);
   extern task read_addr(master_sequence_item xtn);
   extern task read_data(master_sequence_item xtn);
 
-  //extern function void report_phase(uvm_phase phase);
+  // extern function void report_phase(uvm_phase phase);
 endclass
 
 function master_driver::new(string name = "master_driver", uvm_component parent);

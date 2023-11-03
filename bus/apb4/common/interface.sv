@@ -57,13 +57,13 @@ interface axi_if (
   logic        RVALID;
   logic        RREADY;
 
-  //logic csysreq;
-  //logic csysack;
-  //logic cactive;
+  // logic csysreq;
+  // logic csysack;
+  // logic cactive;
 
   // Master_driver
   clocking m_drv_cb @(posedge clk);
-    //default input #2 output #2;
+    // default input #2 output #2;
     output AWID;
     output AWADDR;
     output AWLEN;
@@ -115,9 +115,9 @@ interface axi_if (
     output RREADY;
   endclocking
 
-  //master_monitor
+  // master_monitor
   clocking m_mon_cb @(posedge clk);
-    //default input #2 output #2;
+    // default input #2 output #2;
 
     input AWID;
     input AWADDR;
@@ -170,9 +170,9 @@ interface axi_if (
     input RREADY;
   endclocking
 
-  //slave_driver
+  // slave_driver
   clocking s_drv_cb @(posedge clk);
-    //default input #2 output #2;
+    // default input #2 output #2;
 
     input AWID;
     input AWADDR;
@@ -226,10 +226,10 @@ interface axi_if (
     input RREADY;
   endclocking
 
-  //slave_monitor
+  // slave_monitor
 
   clocking s_mon_cb @(posedge clk);
-    //default input #2 output #2;
+    // default input #2 output #2;
 
     input AWID;
     input AWADDR;
@@ -282,7 +282,7 @@ interface axi_if (
     input RREADY;
   endclocking
 
-  //modports
+  // modports
 
   modport M_DRV_MP(clocking m_drv_cb);
   modport M_MON_MP(clocking m_mon_cb);

@@ -22,7 +22,7 @@ task master_sequence::body();
     req.WRITE_DATA_TRANS++;
 
     start_item(req);
-    //assert(req.randomize() with {AWID==req.WRITE_DATA_TRANS;});
+    // assert(req.randomize() with {AWID==req.WRITE_DATA_TRANS;});
 
     assert (req.randomize());
     `uvm_info("MASTER_WR_SEQUENCE", $sformatf("printing from master sequence \n %s", req.sprint()), UVM_LOW)

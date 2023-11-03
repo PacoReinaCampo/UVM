@@ -21,7 +21,7 @@ task slave_sequence::body();
     req = slave_sequence_item::type_id::create("req");
     req.WRITE_DATA_TRANS++;
     start_item(req);
-    //assert(req.randomize() with {AWID==req.WRITE_DATA_TRANS;});
+    // assert(req.randomize() with {AWID==req.WRITE_DATA_TRANS;});
 
     assert (req.randomize());
     `uvm_info("SLAVE_WR_SEQUENCE", $sformatf("printing from slave sequence \n   %s", req.sprint()), UVM_LOW)
