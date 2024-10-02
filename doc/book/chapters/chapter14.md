@@ -36,7 +36,7 @@ Guidance includes:
 
 2. Configuration identification should be established for each configuration item, for each separately controlled component of a configuration item and for combinations of configuration items that make up a product consistent with the plans agreed to by the certification authority.
 
-Note: The detail to which components, such as ASICs, configured PLDs, printed circuit boards and black boxes, are identified is determined by the Configuration Management Plan.
+   Note: The detail to which components, such as ASICs, configured PLDs, printed circuit boards and black boxes, are identified is determined by the Configuration Management Plan.
 
 3. Configuration identification should be established for COTS components and previously developed hardware items before they are used in a baseline.
 
@@ -50,7 +50,7 @@ Guidance includes:
 
 1. Baselines should be established for configuration items used for certification credit.
 
-Note: Intermediate baselines may be established to aid in controlling hardware activities.
+   Note: Intermediate baselines may be established to aid in controlling hardware activities.
 
 2. Once a baseline is established it should be subject to change control procedures.
 
@@ -58,7 +58,7 @@ Note: Intermediate baselines may be established to aid in controlling hardware a
 
 4. If in developing a new baseline, certification credit is sought for activities or data associated with design of a previous baseline, this new baseline should be traceable to the previous baseline from which it was derived.
 
-Note: The baseline may be a configuration item, a previously certified hardware item or a COTS component.
+   Note: The baseline may be a configuration item, a previously certified hardware item or a COTS component.
 
 #### Problem Reporting, Tracking and Corrective Action
 
@@ -85,17 +85,17 @@ Guidance includes:
 
 3. Changes to configuration items under change control should be recorded, approved, and tracked. Approval authority is defined in the configuration management plan.
 
-Note 1: Problem reporting is related to change control, since resolution of a reported problem may result in changes to configuration items.
+   Note 1: Problem reporting is related to change control, since resolution of a reported problem may result in changes to configuration items.
 
-Note 2: It is generally recognized that early implementation of change control assists the control and management of process activities.
+   Note 2: It is generally recognized that early implementation of change control assists the control and management of process activities.
 
 4. Change control should ensure traceability of changes to the reason for the change.
 
 5. Change control should ensure that the impact of the change is assessed to determine the effect of the change on the outputs of the processes and that the output data is updated.
 
-Note 1: Some or all of the activities of the processes may need to be repeated from the point at which their outputs are affected.
+   Note 1: Some or all of the activities of the processes may need to be repeated from the point at which their outputs are affected.
 
-Note 2: It should be recognized that a change to the manufacturing tools, technology processes or external components may impact the design.
+   Note 2: It should be recognized that a change to the manufacturing tools, technology processes or external components may impact the design.
 
 6. Change control should ensure that feedback is provided to affected processes.
 
@@ -109,7 +109,7 @@ Guidance includes:
 
 2. Data items associated with the product should be retrievable from an approved source, such as the developing organization or company.
 
-Note: Change control data and problem report data are part of the data items.
+   Note: Change control data and problem report data are part of the data items.
 
 3. Data retention procedures should be available to satisfy airworthiness requirements and enable modifications.
 
